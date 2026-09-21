@@ -18,7 +18,10 @@ Implement the Vaswani et al. **sinusoidal** PE and a **learned** PE table in pla
 README.md
 requirements.txt
 positional_encoding.py       # sinusoidal_PE, LearnedPositionalEncoding, helpers
-run_smoke.py                 # no PE vs sinusoidal vs learned on marker-quarter task
+pe_task.py                   # marker-quarter task utils
+pe_smoke_model.py            # content-gated PE training loop
+pe_smoke_plots.py            # heatmap / similarity / accuracy plots
+run_smoke.py                 # no PE vs sinusoidal vs learned smoke entrypoint
 notebooks/positional_encoding_scratch.ipynb
 results/
   RESULTS.md
