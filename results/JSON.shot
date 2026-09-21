@@ -8,9 +8,6 @@
   "runtime_seconds": 2.114,
   "unit_checks_passed": true,
   "plots": [
-    "pe_heatmap.png",
-    "position_similarity.png",
-    "accuracy_comparison.png",
     "pe_heatmap.svg",
     "position_similarity.svg",
     "accuracy_comparison.svg"
