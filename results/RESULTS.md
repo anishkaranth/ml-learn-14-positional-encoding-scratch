@@ -20,9 +20,11 @@
 
 ## Plots
 
-- [`pe_heatmap.png`](pe_heatmap.png) / [`pe_heatmap.svg`](pe_heatmap.svg)
-- [`position_similarity.png`](position_similarity.png) / [`position_similarity.svg`](position_similarity.svg)
-- [`accuracy_comparison.png`](accuracy_comparison.png) / [`accuracy_comparison.svg`](accuracy_comparison.svg)
+Committed SVG plots (re-run `python run_smoke.py` locally for PNG equivalents):
+
+- [`pe_heatmap.svg`](pe_heatmap.svg) — sinusoidal PE matrix
+- [`position_similarity.svg`](position_similarity.svg) — cosine similarity between PE rows
+- [`accuracy_comparison.svg`](accuracy_comparison.svg) — no PE vs sinusoidal vs learned
 
 ## Takeaway
 
